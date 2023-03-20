@@ -4,6 +4,8 @@
 
 ## Demo Video
 
+[!DemoVideo](https://github.com/unbmattzhao/A_README_Generator/blob/main/Demo/AppDemo.mp4)
+
 ## Description
 
 This is a demo project, just to show how the Readme_Generator works. This project does nothing but only to show some of the features of the app as described hereby.
