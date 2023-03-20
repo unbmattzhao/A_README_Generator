@@ -4,7 +4,9 @@
 
 ## Demo Video
 
-[!DemoVideo](https://github.com/unbmattzhao/A_README_Generator/blob/main/Demo/AppDemo.mp4)
+[Demo Video](https://github.com/unbmattzhao/A_README_Generator/blob/main/Demo/AppDemo.mp4)
+
+[Demo Gif](https://github.com/unbmattzhao/A_README_Generator/blob/main/Demo/Demogif.gif)
 
 ## Description
 
