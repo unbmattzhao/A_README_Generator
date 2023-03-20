@@ -1,4 +1,74 @@
-function generateMarkdown() {}
+function renderLicenseBadge(license) {
+  return license !== "None"
+    ? `![GitHub license](https://img.shields.io/badge/license-${license}-orange.svg)`
+    : "";
+}
+
+function renderLicenseLink(license) {
+  return license !== "None" ? `\n* [License](#license)\n` : "";
+}
+
+function renderLicenseSection(license) {
+  if (license !== "None") {
+    return `## License
+  
+  This project is licensed under the ${license} license.`;
+  }
+  return "";
+}
+
+function generateMarkdown(data) {
+  return `# ${data.title}
+  ${renderLicenseBadge(data.license)}
+  
+  ## Description
+  
+  ${data.description}
+  
+  ## Table of Contents 
+
+  * [Installation](#installation)
+  * [Usage](#usage)
+  * [contribution](#contribution)  
+  * [Tests](#tests)  
+  * [Questions](#questions)
+  ${renderLicenseLink(data.license)}
+  
+  ## Installation
+  
+ Please run the following command to install all dependencies needed:
+
+ \`\`\`
+  ${data.installation}
+ \`\`\`
+  ## Usage
+  
+  ${data.usage}
+  
+  
+  ## Contribution
+  
+  ${data.contribution}
+  
+  ## Tests
+  
+  Use the following command to run tests:
+  
+  \`\`\`
+  ${data.test}
+  \`\`\`
+  
+  ## Questions
+  
+  * If you have any questions, please contact me at ${data.email}. 
+  * You can find more of my projects at 
+[${data.github}](https://github.com/${data.github}/). 
+
+  ${renderLicenseSection(data.license)}
+    `;
+}
+
+module.exports = generateMarkdown;
 
 // refer to https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide for the Markdown template.
 
@@ -69,6 +139,6 @@ If you created an application or package and would like other developers to cont
 
 ## Tests
 
-Go the extra mile and write tests for your application. Then provide examples on how to run them here.
+Go the extra mile and write tests for your application. Then provide examples on how to run them here
 
 */
