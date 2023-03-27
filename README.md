@@ -3,10 +3,9 @@
 ![GitHub license](https://img.shields.io/badge/license-MPL2.0-orange.svg)
 
 ## Demo Video
+[Watch Video](https://user-images.githubusercontent.com/46049501/227931553-fe125874-db64-476b-8b0b-99a241757b22.mp4)
+[Download Video](https://github.com/unbmattzhao/A_README_Generator/blob/main/Demo/AppDemo.mp4)
 
-[Demo Video](https://github.com/unbmattzhao/A_README_Generator/blob/main/Demo/AppDemo.mp4)
-
-[Demo Gif](https://github.com/unbmattzhao/A_README_Generator/blob/main/Demo/Demogif.gif)
 
 ## Description
 
