@@ -4,6 +4,7 @@
 
 ## Demo Video
 [Watch Video](https://user-images.githubusercontent.com/46049501/227931553-fe125874-db64-476b-8b0b-99a241757b22.mp4)
+
 [Download Video](https://github.com/unbmattzhao/A_README_Generator/blob/main/Demo/AppDemo.mp4)
 
 
