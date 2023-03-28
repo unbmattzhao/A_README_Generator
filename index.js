@@ -72,7 +72,7 @@ function writeFile(fileName, data) {
 
 function init() {
   inquirer.prompt(questions).then((inquirerResponses) => {
-    writeFile("README.md", generateReadme({ ...inquirerResponses }));
+    writeFile("./Demo/README.md", generateReadme({ ...inquirerResponses }));
   });
 }
 
